@@ -1,16 +1,20 @@
-function MyButton() {
+// src/App.js
+
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/navbar';
+//import Tech from './components/tech';
+//import Creative from './components/creative';
+//import Board from './components/board';
+
+function App() {
   return (
-    <button>
-      I'm a button
-    </button>
+    <Router>
+      <Navbar />
+      
+    
+    </Router>
   );
 }
 
-export default function MyApp() {
-  return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
-  );
-}
+export default App;
