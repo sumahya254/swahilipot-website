@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="bg-gray-300 p-4 text-white fixed w-full top-0 z-50">
+    <nav className="bg-blue-400 p-4 text-white fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <a href="/" className="text-2xl font-bold">Swahili Pot Hub</a>
         <ul className="flex space-x-4">
